@@ -9,3 +9,9 @@
 ```
 새로운 것에 도전하기를 좋아하며, 목표한 것은 이루는 사람입니다
 ```
+
+## Project 
+
+#### Python
+
+> 윈도우 프로그램 팡게임 // https://github.com/hoseobjeon/panggame

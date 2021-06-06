@@ -117,7 +117,22 @@
 
       <div class="row my-auto">
 
-        <div class="col-sm-4 col-lg-3 portfolio-item filter python" data-aos="fade-up" data-aos-delay="0">
+        <div class="col-sm-4 col-lg-3 portfolio-item filter python" data-aos="fade-up" data-aos-delay="100">
+          <p class="title">웹 스크래퍼</p>
+          <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="assets/img/webScraper.png" alt="">
+          </a>
+          <a href="" class="btn btn-general btn-second filter-b">
+            코드보기
+          </a>
+        </div>
+
+        <div class="col-sm-4 col-lg-3 portfolio-item filter python" data-aos="fade-up" data-aos-delay="150">
           <p class="title">이미지 병합기</p>
           <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
             <div class="caption-port">
@@ -132,7 +147,7 @@
           </a>
         </div>
 
-        <div class="col-sm-4 col-lg-3 portfolio-item filter python" data-aos="fade-up" data-aos-delay="50">
+        <div class="col-sm-4 col-lg-3 portfolio-item filter python" data-aos="fade-up" data-aos-delay="200">
           <p class="title">팡게임</p>
           <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
             <div class="caption-port">
@@ -286,6 +301,69 @@
   </div>
 
   <!-- portfolio modal -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">웹 스크래퍼</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid img-centered" src="assets/img/webScraper.png" alt="">
+                </div>
+                <div class="col-md-6">
+                  <ul class="list-inline item-details">
+                    <li>
+                      <h4><strong>프로그램 설명</strong></h4>
+                      <h6>자주 보는 웹 사이트를 정해서 원하는 목록만 출력해서 보기 편하게 스크래핑해서 보여주는 프로그램이다.</h6>
+                    </li>
+                    <li>
+                      <h4><strong>코드 설명</strong></h4>
+                      <h6>
+                        1. 네이버 오늘의 날씨<br>
+                        현재 온도, 어제와 온도 비교, 강수확률, 미세먼지 농도<br>
+                        2. 네이버 전체 뉴스<br>
+                        상위 5개 헤드라인 추출, 뉴스 링크<br>
+                        3. 네이버 IT 뉴스<br>
+                        상위 10개 헤드라인 추출, 뉴스 링크<br>
+                        4. 해커스 영어 회화<br>
+                        매일 영어회화학습에서 영어지문, 한글지문 추출
+                      <h6>
+                    </li>
+                    <li>
+                      <h4><strong>언어</strong></h4>
+                      <h6>Python</h6>
+                    </li>
+                    <li>
+                      <h4><strong>라이브러리</strong></h4>
+                      <h6>beautifulsoup, tkinter, webrowser, re, requests</h6>
+                    </li>
+                    <li>
+                      <button class="btn btn-general btn-contactform" type="button" data-dismiss="modal">
+                        <i class="fa fa-times"></i> Close
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -299,7 +377,7 @@
             <div class="modal-body">
               <div class="title-bar">
                 <div class="col-md-12">
-                  <h2 class="text-center">이미지 병합 프로그램</h2>
+                  <h2 class="text-center">이미지 병합기</h2>
                   <div class="heading-border"></div>
                 </div>
               </div>
@@ -417,6 +495,7 @@
       </div>
     </div>
   </div>
+
 
   <!-- vendor js -->
   <script src="assets/vendor/jquery-3.5.1/jquery-3.5.1.min.js"></script>

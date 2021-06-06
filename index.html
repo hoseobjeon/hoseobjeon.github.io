@@ -107,6 +107,31 @@
           <h2 class="text-center">Portfolio</h2>
           <div class="mb-5 heading-border"></div>
         </div>
+        <div class="col-md-12">
+          <div class="port-head-cont">
+            <button class="btn btn-general btn-first filter-b" data-filter="all">All</button>
+            <button class="btn btn-general btn-first filter-b" data-filter="python">Python</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-auto">
+
+        <div class="col-sm-4 col-lg-3 portfolio-item filter python" data-aos="fade-up" data-aos-delay="150">
+          <p class="title">팡게임</p>
+          <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="assets/img/panggame.png" alt="">
+          </a>
+          <a href="https://github.com/hoseobjeon/panggame" class="btn btn-general btn-second filter-b">
+            코드보기
+          </a>
+        </div>
+
       </div>
 
     </section>
@@ -244,6 +269,71 @@
       </div>
     </section>
   </div>
+
+  <!-- portfolio modal -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">팡게임</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid img-centered" src="assets/img/panggame.png" alt="">
+                </div>
+                <div class="col-md-6">
+                  <ul class="list-inline item-details">
+                    <li>
+                      <h4><strong>프로그램 설명</strong></h4>
+                      <h6>캐릭터의 에너지파와 행성을 충돌시키면 하프사이즈로 나뉘어지는 게임이고 행성은 4단계로 나누어지고 모든 행성을 없애면 이기는 게임이다.</h6>
+                    </li>
+                    <li>
+                      <h4><strong>코드 설명</strong></h4>
+                      <h6>
+                        1. 사용자 게임 초기화<br>
+                        배경, 스테이지, 캐릭터, 무기, 공을 정의<br>
+                        2. 이벤트 처리<br>
+                        키보드를 통한 캐릭터와 무기의 이벤트 처리<br>
+                        3. 게임 캐릭터, 공 위치정의<br>
+                        캐릭터와 공이 움직임 정의<br>
+                        4. 충돌 처리<br>
+                        캐릭터와 무기가 공과 충돌했을때 결과 정의<br>
+                        5. 화면 그리기<br>
+                        정의했던 변수들을 화면에 업데이트
+                      <h6>
+                    </li>
+                    <li>
+                      <h4><strong>언어</strong></h4>
+                      <h6>Python</h6>
+                    </li>
+                    <li>
+                      <h4><strong>라이브러리</strong></h4>
+                      <h6>pygame, os</h6>
+                    </li>
+                  </ul>
+                  <button class="btn btn-general btn-contactform" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i> Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- vendor js -->
   <script src="assets/vendor/jquery-3.5.1/jquery-3.5.1.min.js"></script>

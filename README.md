@@ -16,6 +16,8 @@
 
 #### Python
 
-> 윈도우 프로그램 팡게임 // https://github.com/hoseobjeon/panggame
-
+> 웹 스크래퍼 // https://github.com/hoseobjeon/webScraper
+> 
 > 이미지 병합기 및 화면 스크린샷 // https://github.com/hoseobjeon/imageMerger
+> 
+> 윈도우 프로그램 팡게임 // https://github.com/hoseobjeon/panggame

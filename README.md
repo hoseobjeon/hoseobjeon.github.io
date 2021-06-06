@@ -1,5 +1,7 @@
 # 탄탄한 기본을 바탕으로 발전하는 개발자입니다
 
+![photo](https://raw.githubusercontent.com/hoseobjeon/portfolio/master/assets/img/profilepic.jpg)
+
 ## Introduce
 * Name : 전호섭
 * E-mail : jehose@gmail.com

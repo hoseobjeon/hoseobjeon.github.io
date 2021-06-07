@@ -6,7 +6,7 @@
 * Name : 전호섭
 * E-mail : jehose@gmail.com
 * Github : hoseobjeon
-* Portfolio: https://hoseobjeon.github.io/portfoilo
+* Portfolio: https://hoseobjeon.github.io/portfolio/
 
 ```
 새로운 것에 도전하기를 좋아하며, 목표한 것은 이루는 사람입니다
@@ -20,4 +20,4 @@
 > 
 > 이미지 병합기 및 화면 스크린샷 // https://github.com/hoseobjeon/imageMerger
 > 
-> 윈도우 프로그램 팡게임 // https://github.com/hoseobjeon/panggame
+> 윈도우 프로그램 팡게임 // https://github.com/hoseobjeon/pangGame

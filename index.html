@@ -117,6 +117,21 @@
 
       <div class="row my-auto">
 
+        <div class="col-sm-4 col-lg-3 portfolio-item filter python" data-aos="fade-up" data-aos-delay="50">
+          <p class="title">메모리 게임</p>
+          <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="assets/img/memoryGame.png" alt="">
+          </a>
+          <a href="https://github.com/hoseobjeon/memoryGame" class="btn btn-general btn-second filter-b">
+            코드보기
+          </a>
+        </div>
+
         <div class="col-sm-4 col-lg-3 portfolio-item filter python" data-aos="fade-up" data-aos-delay="100">
           <p class="title">웹 스크래퍼</p>
           <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
@@ -127,7 +142,7 @@
             </div>
             <img class="img-fluid" src="assets/img/webScraper.png" alt="">
           </a>
-          <a href="" class="btn btn-general btn-second filter-b">
+          <a href="https://github.com/hoseobjeon/webScraper" class="btn btn-general btn-second filter-b">
             코드보기
           </a>
         </div>
@@ -301,6 +316,71 @@
   </div>
 
   <!-- portfolio modal -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">메모리 게임</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid img-centered" src="assets/img/memoryGame.png" alt="">
+                </div>
+                <div class="col-md-6">
+                  <ul class="list-inline item-details">
+                    <li>
+                      <h4><strong>프로그램 설명</strong></h4>
+                      <h6>숫자를 보여주고 가린 뒤 순서에 맞게 맞추는 형식이 게임이고, 레벨에 따라서 숫자의 수가 많아지고 숫자를 보여주는 시간이 줄어든다.</h6>
+                    </li>
+                    <li>
+                      <h4><strong>코드 설명</strong></h4>
+                      <h6>
+                        1. 화면 설정<br>
+                        Grid를 사용해서 보여질 숫자의 셀 사이즈 설정<br>
+                        2. 실행버튼 설정<br>
+                        게임을 시작할때 누르는 버튼 설정<br>
+                        3. 충돌 설정<br>
+                        마우스를 선택했을때 올바른 숫자가 맞는지 충돌 설정<br>
+                        4. 레벨 설정<br>
+                        레벨별 주어지는 시간, 보여질 숫자 설정<br>
+                        5. 환경 설정<br>
+                        게임에 보여질 메세지, 타이틀, 폰트 설정
+                      <h6>
+                    </li>
+                    <li>
+                      <h4><strong>언어</strong></h4>
+                      <h6>Python</h6>
+                    </li>
+                    <li>
+                      <h4><strong>라이브러리</strong></h4>
+                      <h6>pygame, random</h6>
+                    </li>
+                    <li>
+                      <button class="btn btn-general btn-contactform" type="button" data-dismiss="modal">
+                        <i class="fa fa-times"></i> Close
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -495,7 +575,6 @@
       </div>
     </div>
   </div>
-
 
   <!-- vendor js -->
   <script src="assets/vendor/jquery-3.5.1/jquery-3.5.1.min.js"></script>

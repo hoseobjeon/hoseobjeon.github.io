@@ -6,7 +6,7 @@
 * Name : 전호섭
 * E-mail : jehose@gmail.com
 * Github : hoseobjeon
-* Portfolio: https://hoseobjeon.github.io/portfolio/
+* Portfolio: [gitpage 이동](https://hoseobjeon.github.io/)
 
 ```
 새로운 것에 도전하기를 좋아하며, 목표한 것은 이루는 사람입니다
@@ -16,10 +16,10 @@
 
 #### Python
 
-> 메모리게임 // https://github.com/hoseobjeon/memoryGame
+> 메모리게임 // [코드보기](https://github.com/hoseobjeon/memoryGame)
 > 
-> 웹 스크래퍼 // https://github.com/hoseobjeon/webScraper
+> 웹 스크래퍼 // [코드보기](https://github.com/hoseobjeon/webScraper)
 > 
-> 이미지 병합기 및 화면 스크린샷 // https://github.com/hoseobjeon/imageMerger
+> 이미지 병합기 및 화면 스크린샷 // [코드보기](https://github.com/hoseobjeon/imageMerger)
 > 
-> 윈도우 프로그램 팡게임 // https://github.com/hoseobjeon/pangGame
+> 윈도우 프로그램 팡게임 // [코드보기](https://github.com/hoseobjeon/pangGame)

@@ -16,7 +16,9 @@
 
 #### Python
 
-> 메모리게임 // [코드보기](https://github.com/hoseobjeon/memoryGame)
+> 황금캐기 게임 // [코드보기](https://github.com/hoseobjeon/goldminerGame)
+> 
+> 메모리 게임 // [코드보기](https://github.com/hoseobjeon/memoryGame)
 > 
 > 웹 스크래퍼 // [코드보기](https://github.com/hoseobjeon/webScraper)
 > 

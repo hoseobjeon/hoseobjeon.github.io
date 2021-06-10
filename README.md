@@ -16,6 +16,8 @@
 
 #### Python
 
+> 마스크 판별기 // [코드보기](https://github.com/hoseobjeon/maskDetector)
+> 
 > 황금캐기 게임 // [코드보기](https://github.com/hoseobjeon/goldminerGame)
 > 
 > 메모리 게임 // [코드보기](https://github.com/hoseobjeon/memoryGame)

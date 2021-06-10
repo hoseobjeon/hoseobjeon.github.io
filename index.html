@@ -110,12 +110,28 @@
         <div class="col-md-12">
           <div class="port-head-cont">
             <button class="btn btn-general btn-first filter-b" data-filter="all">All</button>
+            <button class="btn btn-general btn-first filter-b" data-filter="tensorflow">TensorFlow</button>
             <button class="btn btn-general btn-first filter-b" data-filter="python">Python</button>
           </div>
         </div>
       </div>
 
       <div class="row my-auto">
+
+        <div class="col-sm-4 col-lg-3 portfolio-item filter tensorflow python" data-aos="fade-up" data-aos-delay="0">
+          <p class="title">마스크 판별기</p>
+          <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="assets/img//maskDetector.png" alt="">
+          </a>
+          <a href="https://github.com/hoseobjeon/maskDetector" class="btn btn-general btn-second filter-b">
+            코드보기
+          </a>
+        </div>
 
         <div class="col-sm-4 col-lg-3 portfolio-item filter python" data-aos="fade-up" data-aos-delay="50">
           <p class="title">황금캐기 게임</p>
@@ -331,6 +347,67 @@
   </div>
 
   <!-- portfolio modal -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">마스크 판별기</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid img-centered" src="assets/img/maskDetector.png" alt="">
+                </div>
+                <div class="col-md-6">
+                  <ul class="list-inline item-details">
+                    <li>
+                      <h4><strong>프로그램 설명</strong></h4>
+                      <h6>카메라를 이용해서 실시간으로 얼굴을 파악해서 마스크를 썼는지 감지한다.</h6>
+                    </li>
+                    <li>
+                      <h4><strong>코드 설명</strong></h4>
+                      <h6>
+                        1. 이미지 준비<br>
+                        마스크, 노마스크 두 종류의 이미지들을 os로 불러서 opencv로 이미지 사이즈 변경 및 정규화를 통해 과적합 방지 그리고 그 이미지들을 두 종류로 분류한 후 np를 사용해서 pickle에 파일로 저장<br>
+                        2. 텐서플로우 모델<br>
+                        pickle로 저장된 파일 불러와서 CNN 모델 두번 사용 > 플레튼으로 일정하게 만든 후 > 과적합 방지를 위해 50% 드롭아웃 > 계층 50개 > softmax 사용해서 계층 2개 (마스크 / 노마스크) 훈련할 파일과 검사할 파일은 8:2 비율로 두었고 10번 반복 학습<br>
+                        3. 비디오 판별기<br>
+                        haar cascade 알고리즘을 사용해서 얼굴 감지, 마스크 사용 유무에 따른 메세지, 마스크 썼을때 소리, 스크린샷 기능
+                      <h6>
+                    </li>
+                    <li>
+                      <h4><strong>언어</strong></h4>
+                      <h6>Python</h6>
+                    </li>
+                    <li>
+                      <h4><strong>라이브러리</strong></h4>
+                      <h6>keras, cv2, os, numpy, pickle, sklearn, winsound, datatime</h6>
+                    </li>
+                    <li>
+                      <button class="btn btn-general btn-contactform" type="button" data-dismiss="modal">
+                        <i class="fa fa-times"></i> Close
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
